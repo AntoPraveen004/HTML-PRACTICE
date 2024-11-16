@@ -1,0 +1,13 @@
+
+body{
+    background-color: aqua;
+    background-image:url('C:/Users/DELL/Downloads/images.jpg');
+    background-repeat:no-repeat;
+    background-position: top left;
+    background-size:1000px 1000px;
+   background-attachment:fixed;
+
+}
+html{
+    background-color:black;
+}

@@ -1,0 +1,17 @@
+div{
+    background-color: aquamarine;
+    color:white;
+    border:dashed black;
+    width:100%;
+    margin:10px;
+    height:100%;
+    padding:100px;
+    background:url('C:/Users/DELL/Downloads/images.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-origin:border-box;
+    background-attachment:fxed;
+}
+body{
+    background-color:gray;
+}

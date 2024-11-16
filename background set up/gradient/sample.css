@@ -1,0 +1,27 @@
+div{
+    width:900px;
+    height:500px;
+    padding: 10px;
+    background-origin:border-box;
+    background:repeating-linear-gradient(25deg, red 0px,red 30px,blue 40px,blue 70px);
+    background:repeating-linear-gradient(red,blue);
+    background:repeating-linear-gradient(to right,red,blue);
+    background:repeating-linear-gradient(to left ,red,blue);
+    background:repeating-linear-gradient(to bottom left, red,blue);
+    background:repeating-linear-gradient(to top right ,red,blue);
+
+
+
+
+
+    background:radial-gradient(red,blue,green);
+    background:radial-gradient(to top left,red,blue,green);
+    background:radial-gradient(farthest-side at 60% 10% ,red,blue,green);
+
+
+    
+
+
+    
+    
+}

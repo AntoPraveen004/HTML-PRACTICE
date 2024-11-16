@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fixed Header, Centered Content, and Fixed Footer Layout</title>
+  <style>
+    /* Reset default margin and padding for body */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Set min height of viewport to 100vh */
+    html, body {
+      min-height: 100vh;
+    }
+
+    /* Set up container for the layout */
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+    }
+
+    /* Set up the header */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+
+    /* Set up the content */
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+    }
+
+    /* Set up the footer */
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+    <div class="content">
+      <h2>Centered Content</h2>
+    </div>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </div>
+</body>
+</html>

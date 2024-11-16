@@ -1,0 +1,12 @@
+div{
+    font-size:50px;
+    width:900px;
+    height:800px;
+    background-color: black;
+    background: url(C:/Users/DELL/Downloads/download.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family:impact;
+}
